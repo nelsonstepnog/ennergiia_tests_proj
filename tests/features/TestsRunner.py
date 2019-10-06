@@ -12,7 +12,7 @@ if __name__ == '__main__':
     # featureFilePath = ' features/ennergiia.feature '
 
     # Расскоментировать строку ниже если вы под linux:
-    featureFilePath = ' ../features/ennergiia.feature '
+    # featureFilePath = ' ../features/ennergiia.feature '
 
     commonRunnerOptions = ' --no-capture --no-capture-stderr -f plain '
     fullRunnerOptions = featureFilePath + commonRunnerOptions
